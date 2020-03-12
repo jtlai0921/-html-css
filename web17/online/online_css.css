@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+
+.content img{}
+
+
+.content .p1{float: left;
+}
+.content .p2{float: right}
+.content .t1{ clear: both;}

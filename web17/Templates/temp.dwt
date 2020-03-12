@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Sosa Foods</title>
+<!-- TemplateEndEditable -->
+<link href="../share/layout.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="container">
+<div class="topmenu">
+  <img src="../share/logo.png" alt="Sosa foods" title="Sosa foods" width="300" height="80">
+  <ul>
+    <li><a href="../index.html">首頁</a></li>
+    <li><a href="#">登入</a></li>
+    <li><a href="#">註冊</a></li>
+  </ul>
+</div>
+<div class="banner">
+  <p><img src="../share/banner.jpg" width="1200" height="400"></p>
+</div>
+<div class="nav">
+  <ul>
+    <li><a href="../about/about.html">關於我們</a></li>
+    <li><a href="../news/news.html">最新消息</a></li>
+    <li><a href="../online/online.html">線上訂購</a></li>
+    <li><a href="../products/porducts.html">產品介紹</a></li>
+    <li><a href="../contact/contact.html">連絡我們</a></li>
+  </ul>
+</div>
+<div class="content"><!-- TemplateBeginEditable name="EditRegion3" -->EditRegion3<!-- TemplateEndEditable --></div>
+<div class="footer">
+  <h2>Sosa Foods</h2>
+  <h4>版權所有 © 2014 All rights reserved.  </h4>
+</div>
+</div>
+</body>
+</html>

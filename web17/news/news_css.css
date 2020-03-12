@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.content p{
+	font-size: 20px;
+	font-weight: normal;
+	color:#BF3E40;
+}
+
+.content img{
+	float: right;
+}

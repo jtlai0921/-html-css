@@ -1,0 +1,5 @@
+
+@import url("d_layout.css") only screen and (min-width: 641px);
+
+@import url("m_layout.css") only screen and (max-width: 640px);
+

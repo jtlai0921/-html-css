@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	padding-top:30px;}
+
+h1{
+	text-align:center;
+	color:#039;
+	margin-bottom:10px;
+}
+
+#BOX{
+	width:920px;
+	margin:0 auto;
+	background-color:#09F;
+	padding:20px;
+}
+
+#BOX img{
+	margin:10px;
+	border:#FFF 5px solid;
+	border-radius:10px;
+	box-shadow:#333 0 3px 5px;
+	}
+
+

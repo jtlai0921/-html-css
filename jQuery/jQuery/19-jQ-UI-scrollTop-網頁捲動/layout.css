@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+body{
+	background-color:#09C;
+}
+
+#wrapper{
+	width:980px;
+	margin:0 auto;
+}
+
+img{
+	border:0;
+}
+

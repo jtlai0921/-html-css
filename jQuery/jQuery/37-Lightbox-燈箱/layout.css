@@ -1,0 +1,50 @@
+body {
+	width:100%;
+	height:100%;
+	background-color: #AAA;
+}
+#BOX {
+	width:860px;
+	margin:0 auto;
+	background-color:#EEE;
+	border-radius:10px;
+	padding-bottom:50px;
+	box-shadow:0 0 10px #666;
+}
+#BOX h1 {
+	text-align:center;
+	font-family:Verdana;
+	font-size:40px;
+	color:#666;
+	text-shadow:2px 5px 5px #AAA;
+	margin-bottom:10px;
+}
+#BOX h3 {
+	text-align:center;
+	font-family:Verdana;
+	font-size:20px;
+	color:#aaa;
+	letter-spacing:5px;
+	margin-bottom:20px;
+}
+#BOX img {
+	padding-left:28px;
+	padding-bottom:20px;
+}
+#BOX img{
+	text-align:center;}
+#NEW {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 0, 0.8) url(b-images/loading.gif) no-repeat center center;
+}
+#NEW img {
+	position:absolute;
+	box-shadow:3px 3px 10px #333;
+	cursor: pointer;
+}
+
+

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body {
+	padding-top:50px;
+	background-color: #D9D9B3;
+}
+
+
+#PIC{
+	width:800px;
+	height:200px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:10px;
+	background-color:#FFF;
+	border:#FFF 10px solid;
+	box-shadow:#333 0 2px 5px;
+}
+#PIC ul{}
+#PIC li{
+	list-style-type:none;
+	position:absolute;
+}
+
+#PIC li img{
+	display:none;
+	}
+
+#PIC li:first-child img{
+	display:block;}
+
+
+#ICON{
+	width:800px;
+	margin:0 auto;
+	overflow:hidden;
+}

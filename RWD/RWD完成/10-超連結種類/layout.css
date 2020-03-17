@@ -1,0 +1,65 @@
+﻿@import url("reset.css");
+
+html{
+	width: 100%;
+	min-height: 100%; 
+	font-family:Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust:none;
+	background-image:url(bg.jpg);
+
+}
+
+body{
+	width: 100%;
+	min-height: 100%; 
+}
+
+/* ==頁首區=========== */
+
+header{
+	margin-top:30px;
+}
+
+header h1{
+	text-align:center;
+	font-size:40px;
+	color:#F60;
+	text-shadow:#000 1px 2px 3px;
+	
+}
+
+/* ==選單區=========== */
+
+nav{
+	width:auto;
+	padding:10px 15px;
+}
+
+nav ul{
+	margin:10px 5px;
+	width:300px;
+	margin:20px auto 0 auto;
+	overflow:hidden;
+}
+
+nav li{
+	float:left;
+}
+
+nav a{
+	display:block;
+	width:145px;
+	height:48px;
+	background-image:url(button.png);
+	line-height:48px;
+	text-indent:30px;
+	margin:0 5px 8px 0;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	text-decoration:none;
+	color:#000;
+}
+
+nav a:hover{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+

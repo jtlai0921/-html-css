@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-size: 18px;
+}
+body {
+	margin: 80px 0;
+	background-color: #9CF
+}
+
+header {
+	background-color: #039;
+	color: #9FF;
+	text-align: center;
+	height:80px;
+	line-height:80px;
+	position: fixed;
+	width: 100%;/*浮動後沒有100%的寬度，要自己設定*/
+	top: 0
+}
+
+header h1{}
+nav ul{}
+nav li{
+	list-style:none;
+	}
+
+nav li:first-child a{
+	border-top: #006 1px solid;}
+nav li a{
+	display:block;
+	background-color:#06C;
+	height:44px;
+	line-height:44px;
+	border-bottom: #006 1px solid;
+	color:#0CF;
+	text-align:center;
+	text-decoration:none;}
+nav li a:hover{
+	background-color:#0CF;
+	color:#039;}
+
+section {
+	padding: 10px;
+}
+section img {
+	max-width: 100%;
+	height: auto;
+}
+section h2 {
+	color: #FF0;
+	font-size: 1.2rem;
+	margin: 10px 0;
+}
+footer {
+	background-color: #039;
+	color: #9FF;
+	text-align: center;
+	height:80px;
+	line-height:80px;
+	position: fixed;
+	width: 100%;/*浮動後沒有100%的寬度，要自己設定*/
+	bottom: 0;
+	font-size: 0.8rem;
+}
+footer h3 {
+	font-weight: normal;
+}
+	
+/*====平板、桌機============================*/
+
+@media only screen and (min-width:768px) {
+body {
+	margin:0;/*不能刪除，與手機版css不同的設定，就要再寫一次設定值，把它覆蓋過去*/
+	background-color: #FEECCB
+}
+header, footer {
+	background-color: #C06;
+	color: #FED8E3;
+	position:static;
+	/*===不能刪除，與手機版css不同的設定，就要再寫一次設定值，把它覆蓋過去===*/
+	/*===並不是刪除，就回復到HTML的預設值了===*/
+}
+header h1{
+	text-align:left;
+	padding-left:60px;}
+nav ul{
+	position: absolute;
+	right: 60px;
+	top: 20px;
+}
+nav li{
+	list-style:none;
+	float:left;
+	}
+nav li:first-child a{
+	border-top:none;}
+nav li a{
+	display:inline;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+	background-color:transparent;
+	border:none;
+	margin-right:20px;}
+nav li a:hover{
+	background-color:transparent;
+	color:#FF0;}
+
+section {
+	width: 1000px;
+	margin: 0 auto;
+}
+section h2 {
+	color: #F90;
+	font-size: 2rem;
+	margin: 20px 0;
+}
+}

@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#ccC;
+	color:#666;
+	font:0.9em/1.6 "微軟正黑體";
+}
+#BOX{
+	background-image:url(images/title.jpg);
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	width:980px;
+	margin:0 auto;
+	box-shadow:#333 0 0 8px;
+	padding-top:480px;
+	position:relative;
+}
+#BOX p{
+	padding:5px 40px;
+}
+#BOX h2{
+		text-align:center;
+}
+#BOX #TOP{
+	position:absolute;
+	right:-100px;
+	top:-100px;
+	width:80px;
+	height:80px;
+	cursor:pointer;
+}

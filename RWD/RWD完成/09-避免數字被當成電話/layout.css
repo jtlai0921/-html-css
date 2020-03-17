@@ -1,0 +1,72 @@
+﻿@import url("reset.css");
+
+html,body{
+	font-family:Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust:100%;
+	background-color:#CCC;
+}
+
+/* ==頁首區=========== */
+
+header{
+	height:60px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(50%,#f17432), color-stop(51%,#ea5507), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */
+
+}
+
+header h1{
+	color:#FFF;
+	text-align:center;
+	font-size:25px;
+	line-height:60px;
+	text-shadow:1px 1px 3px #000;
+}
+
+/* ==內容區=========== */
+
+section{
+	padding:15px 15px;
+}
+
+section ul{
+	margin:12px 5px;
+	
+}
+
+section li{
+	display:block;
+	padding-bottom:15px;
+	line-height:45px;
+	padding:0 20px;
+	text-align:justify;
+	text-justify:inter-word;
+	text-decoration:none;
+	background-color:#FFF;
+	border:1px solid #999;
+	margin-bottom:-1px;
+	font-weight:bold;
+}
+
+section li:first-child{
+	border-radius:8px 8px 0 0;
+}
+
+section li:last-child{
+	-webkit-border-radius: 0 0 8px 8px;
+}
+
+/* ==頁尾區=========== */
+
+footer{
+	height:50px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#666));
+	border-top:1px solid #CCC;
+}
+
+footer h3{
+	color:#FFF;
+	text-align:center;
+	font-size:20px;
+	line-height:50px;
+	text-shadow:0 1px 2px #111;
+}

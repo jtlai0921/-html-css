@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{}
+html,body{}
+.header{}
+.header h1{}
+.header ul{}
+.header li{}
+.header li a{}
+.header li a:hover{}
+
+.banner{}
+.banner img{}
+
+.office{}
+.office .ofbox{}
+.office .ofbox img{}
+.office .ofbox p{}
+
+.ad{}
+.adbox{}
+.ad img{}
+
+.nav{}
+.nav .navbox{}
+.nav .navbox p{}
+.nav .navbox ul{}
+.nav .navbox li{}
+.nav .navbox li a{}
+.nav .navbox li a:hover{}
+
+.footer{}
+.footer h2{}
+.footer p{}
+
+
+
+

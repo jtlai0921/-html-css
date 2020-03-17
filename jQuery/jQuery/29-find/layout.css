@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("reset.css");
+
+#wrapper{
+	width:500px;
+	margin:0 auto;
+}
+
+.BANNER{}
+.BANNER h3{
+	width:350px;
+	height:100px;
+	color:#FFF;
+	text-decoration:none;
+	font-family:"微軟正黑體", sans-serif;
+	line-height:100px;
+	padding-left:150px;
+	font-size:20px;
+	cursor:pointer;
+}
+
+.BANNER h3.A{
+	background-image:url(images/ss1.jpg);
+}
+.BANNER h3.B{
+	background-image:url(images/ss2.jpg);
+}
+.BANNER h3.C{
+	background-image:url(images/ss3.jpg);
+}
+.BANNER h3.D{
+	background-image:url(images/ss4.jpg);
+}
+.BANNER h3.E{
+	background-image:url(images/ss5.jpg);
+}
+
+.BOX{
+	position:relative;
+	display:none;
+}
+
+.MORE a{
+	display: block;
+	width: 60px;
+	height: 20px;
+	font-size: 12px;
+	color: #FF3;
+	text-align: center;
+	line-height: 20px;
+	text-decoration: none;
+	position: absolute;
+	left: 430px;
+	top: 10px;
+	background-color: #C30;
+	border-radius: 8px;
+	position: absolute;
+	}
+.MORE a:hover{
+	background-color:#666}

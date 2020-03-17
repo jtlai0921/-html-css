@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-color:#036;
+}
+
+
+#BOX{
+	width:800px;
+	height:700px;
+	background-color:#FFF;
+	margin:0 auto;
+	border-radius:15px;
+	padding:20px;
+}
+
+#BOX ul{
+	overflow:hidden;}
+#BOX li{
+	float:left;
+	list-style-type:none;
+}
+#BOX li a{
+	display:block;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	border-radius:10px;
+	box-shadow:#333 0 0 5px;
+	text-decoration:none;
+	color:#333;
+	margin:5px 5px 5px 5px;
+	text-align:center;
+}
+#BOX li a:hover{
+	background-color:#CCC;}

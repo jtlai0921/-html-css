@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	text-align:center;
+}
+
+#BOX{
+	background-image:url(images/bg.jpg);
+	width:1200px;
+	height:800px;
+	margin:0 auto;
+	position:relative;
+}
+
+#BOX img{
+	position: absolute;
+	left: 0px;
+	top: 354px;
+}
+
+img{
+	cursor:pointer;
+}

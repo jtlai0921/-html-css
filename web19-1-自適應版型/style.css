@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	font-family: Helvetica, Arial,"微軟正黑體" ,"sans-serif";
+}
+.header{
+	height: 100px;
+}
+.header h1{
+	position: absolute;
+	left: 34px;
+	top: 29px;
+}
+.header ul{
+	position: absolute;
+	right: 20px;
+	top: 38px;
+	
+}
+.header li{
+	float: left;
+	list-style: none;
+}
+.header li a{
+	margin-right: 10px;
+}
+.header li a:hover{}
+
+.banner{
+	background-color: #8AFF52;
+}
+.banner img{
+	width:100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.office{
+	background-color: #FFA0A2;
+	display: flex;
+	justify-content: center;
+}
+.office .ofbox{
+	background-color: #C3C3C3;
+	width: 20%;
+	margin: 1%;
+	text-align: center;
+	padding: 10px;
+		
+}
+.office .ofbox img{
+	max-width: 100%;
+	height: auto;
+	
+}
+.office .ofbox p{}
+
+.ad{
+	display: flex;
+}
+.adbox{}
+.ad img{
+	vertical-align: bottom;
+	width: 100%;
+	height: auto;
+}
+
+.nav{
+	background-color: #434343;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	
+}
+.nav .navbox{
+	width: 15%;
+	background-color: #646464;
+	margin: 1%;
+	padding: 20px;
+}
+.nav .navbox p{}
+.nav .navbox ul{}
+.nav .navbox li{
+	list-style: none;
+}
+.nav .navbox li a{
+	color: #C9C9C9;
+	line-height: 30px;
+}
+.nav .navbox li a:hover{}
+
+.footer{
+	background-color: #0B0B0B;
+	color: #ADADAD;
+	text-align: center;
+	padding: 20px;
+}
+.footer h2{}
+.footer p{}
+
+/*===平板的CSS===*/
+
+@media screen and (max-width:1200px) and (min-width:769px){
+
+.office{
+	flex-wrap: wrap;
+}
+.office .ofbox{
+	width: 40%;
+}
+
+.ad{
+	flex-wrap: wrap;
+}
+.adbox{
+	width: 50%;
+	}
+
+
+.nav{
+	flex-wrap: wrap;
+	
+}
+.nav .navbox{
+	width: 40%;
+
+}
+
+	
+	
+}
+
+
+/*===手機的CSS===*/
+
+
+@media screen and (max-width:768px){
+
+.office{
+	flex-wrap: wrap;
+}
+.office .ofbox{
+	width: 80%;
+}
+
+.ad{
+	flex-wrap: wrap;
+}
+.adbox{
+	width: 100%;
+	}
+
+
+.nav{
+	flex-wrap: wrap;
+	
+}
+.nav .navbox{
+	width: 80%;
+
+}
+
+	
+	
+}
+
+
+
+
+

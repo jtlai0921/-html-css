@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "微軟正黑體";
+}
+
+h1 {
+	text-align: center;
+}
+#BOX {
+	width: 1000px;
+	height: 360px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color:#ADF;
+	border: #000 2px solid;
+}
+#BOX ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+	margin: 0 11px;
+	background-color:#09C;
+	border: 2px solid #000;
+	padding: 20px 10px;
+}
+#BOX li {	
+	list-style-type: none;
+	display: block;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+	background-color:#D9F4FD;
+	font-size: 20px;
+	margin-bottom: 10px;
+	border: 1px solid #666;
+}
+#BOX li.AA {
+	background-color:#606;
+	color:#FFF;
+	cursor: pointer;
+}
